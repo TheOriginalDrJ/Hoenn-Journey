@@ -81,37 +81,7 @@ Levels currently follow early Emerald, so an existing League-winning team will
 be overleveled. No player party reset or automatic level scaling is performed.
 Postgame balancing and the new story belong to a later pass.
 
-## Verification
-
-The isolated native-engine tests use FireRed's real cached map/battle data and
-a temporary character, never the user's save. Verified in this batch:
-
-- All 17 map atlases and all NPC sprites load; 49 usable doorway/stairway links
-  work through actual player movement. Script-only/off-map ship warps are blocked.
-- City/Center/Mart doors, nurse healing, real shop purchase and money deduction.
-- Two-way Slateport/Route 110 walking connection and correct map music IDs.
-- Actual wild and trainer battles through completion; trainer sight engagement.
-- All 14 trainer teams complete the native headless battle path.
-- Trainer victories survive save-schema roundtrip/Continue.
-- Actual losing battle returns to Slateport Center and heals the party.
-- Original Birch/ticket/ferry regression suite.
-- Hoenn encounter preservation with the actual encounters component extracted
-  from the supplied 1025Dex 1.1.28 ZIP.
-
-This is not yet an end-to-end launcher test with the **entire** 1025Dex mod,
-every existing save, or all other installed mods. Shared-release validation must
-include those combinations. Screenshots and test reports are in the workspace's
-tests folder, not required by the installed mod.
-
-## Assets and rebuild
-
-Layouts, tiles, palettes and overworld NPC sprites were extracted from the
-supplied Emerald ROM. Music was previously rendered from that same ROM for the
-local MP3 project; only the seven needed tracks are copied into this package.
-No ROM or 1025Dex package is included. Provenance is recorded in
-assets/slateport/source.json and expansion-source.json.
-
-Map/event/trainer/encounter metadata uses the
-[pret Emerald decompilation](https://github.com/pret/pokeemerald).
-The builder is tools/build_hoenn_slice.py (run Python with `-X utf8`), the
-renderer is tools/extract_slateport.py, and packaging is tools/package_hoenn.py.
+<img width="960" height="640" alt="FR_Route" src="https://github.com/user-attachments/assets/f7bd1cd5-3f1c-4b91-9757-740c4eadf62b" />
+<img width="960" height="640" alt="FR_Battle" src="https://github.com/user-attachments/assets/51c32c70-5471-4b27-8e74-55533fd276e8" />
+<img width="960" height="640" alt="FR_Warp" src="https://github.com/user-attachments/assets/8b7b2228-eba7-4328-97cf-0d7f7946493b" />
+<img width="960" height="640" alt="FR_Slateport" src="https://github.com/user-attachments/assets/5eb61b7a-5dcf-408c-955f-0c7ac5247528" />
