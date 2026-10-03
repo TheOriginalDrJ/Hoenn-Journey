@@ -2,17 +2,24 @@
 
 **Continue your FireRed adventure in Hoenn.** Hoenn Journey is a playable expansion for **FireRed Recomp**, bringing Emerald's towns, routes, interiors, encounters and familiar faces into your existing character's journey, with a new post-Champion story.
 
-**Current version: v0.17.3** · **In active development** · Requires **1025Dex (any version)**
+**Current version: v0.18.0** · **In active development** · **Standalone — no companion mod required**
 
 [Download the latest release](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest) · [Report a bug](https://github.com/TheOriginalDrJ/Hoenn-Journey/issues)
 
-## New since v0.16.7
+## New in v0.18.0
+
+Hoenn Journey now uses FireRed Recomp's native **Gen 1–3 roster** directly: all **386 Pokémon**, **354 moves**, original sprites and cries, abilities, learnsets, evolutions, TM/HM compatibility and breeding data. **1025Dex is no longer required.** The existing Hoenn Pokédex and regional gameplay remain integrated with the native battle, capture, party, storage and save systems.
+
+Only FireRed Recomp and its normal FireRed ROM import are needed. The standalone package does not include later-generation Pokémon or companion-mod HD art. If your save contains Gen 4+ Pokémon, keep their original provider mod enabled; this update does not convert or delete them.
+
+See the [v0.18.0 release notes and screenshots](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/tag/v0.18.0). The build's full serial regression passed with 307 PASS records; all 2,720 packaged files were byte-verified before publication.
+
+## Previous expansion updates: v0.17.0–v0.17.3
 
 - **Battle Frontier:** all seven single-player facilities, Frontier Brain battles, Symbols, BP, Frontier Pass and surrounding areas, plus all three Battle Tents.
 - **Mauville and Trick House:** Rydel's bike selection/exchanges, the Gym's switches and Wattson rewards, and all eight Trick House puzzles.
 - **Central Hoenn:** New Mauville's power-plant quest, paired-trainer double battles and Briney's coastal sailing sequences.
 - **Interface improvements:** bag quantities, Pokédex alignment, Safari admission dialogue and a reorganized Cheats menu with Left/Right warp paging.
-- **1025Dex dependency:** any version is admitted; the companion remains required. Compatibility with every historical or future build is not verified.
 
 The cumulative import now contains **452 maps**. See the [v0.17.3 release notes and gameplay screenshots](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/tag/v0.17.3) for details, installation and current limitations.
 
@@ -20,7 +27,7 @@ The cumulative import now contains **452 maps**. See the [v0.17.3 release notes 
 
 - A region-wide collection of imported towns, Routes 101–134, connected interiors, caves, gyms, ocean routes and underwater areas.
 - Emerald-based maps, collision and field behavior, NPC placements, dialogue, trainer teams and wild encounter tables.
-- Land, water, fishing and Rock Smash encounters preserve Emerald's authored species and level ranges. Battles run through the FireRed engine and installed companion mods.
+- Land, water, fishing and Rock Smash encounters preserve Emerald's authored species and level ranges. Battles run through the native FireRed engine.
 - Regional travel, Fly destination selection, Surf, Dive, field interactions, Pokémon Centers, shops and Mauville's Game Corner.
 - Hoenn location records for caught Pokémon, plus save support for regional progress.
 
@@ -49,7 +56,15 @@ The PokéNav includes Emerald-style menus, the Hoenn region map with zoom and lo
 
 ## Screenshots
 
-Actual in-game captures from development builds.
+Actual in-game captures. The first four are from the v0.18.0 standalone build; the regional exploration gallery below includes earlier development builds.
+
+| Native Pokémon in the Hoenn Pokédex | Battle Frontier |
+| --- | --- |
+| ![Hoenn Pokédex with native Treecko artwork](https://github.com/user-attachments/assets/16a9200d-bccf-4633-b406-6391a21c5bd4) | ![Native trainer battle at the Battle Frontier](https://github.com/user-attachments/assets/7afd5c89-ec18-46ee-ad97-dd495020c9d9) |
+
+| Hoenn backpack | Hoenn trainer card |
+| --- | --- |
+| ![Hoenn backpack in the standalone build](https://github.com/user-attachments/assets/21311a96-4866-451f-8842-a5c05af555c0) | ![Hoenn trainer card in the standalone build](https://github.com/user-attachments/assets/c64c0e88-0ab4-487e-bf14-6fea97be8bd6) |
 
 | Hoenn exploration | Chapter 1 at Birch's lab |
 | --- | --- |
@@ -65,12 +80,12 @@ Actual in-game captures from development builds.
 
 ## Install or update
 
-1. Back up your save and install/enable **1025Dex (any version)** for FireRed Recomp.
-2. Download **HoennJourney-FireRed-v0.17.3.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
+1. Back up your save. Ensure FireRed Recomp is installed with its normal FireRed ROM import; **no companion mod is required**.
+2. Download **HoennJourney-FireRed-v0.18.0.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
 3. Import it through the game's mod system, replacing the previous Hoenn Journey version, and enable it for FireRed.
 4. Restart the game so the updated hooks load, then continue your save.
 
-This is a Recomp mod package, not a patched GBA ROM. Recent saves remain compatible. Keep Hoenn Journey and its companion enabled while continuing a save in Hoenn; return to Kanto before disabling the expansion.
+This is a Recomp mod package, not a patched GBA ROM. Keep Hoenn Journey enabled while continuing a save in Hoenn; return to Kanto before disabling the expansion. If an existing save contains later-generation Pokémon supplied by another mod, keep that provider enabled. v0.18.0 neither converts nor deletes those Pokémon.
 
 Normal access follows the post-Champion invitation and ferry journey. Testing shortcuts are available below.
 
