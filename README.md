@@ -2,9 +2,19 @@
 
 **Continue your FireRed adventure in Hoenn.** Hoenn Journey is a playable expansion for **FireRed Recomp**, bringing Emerald's towns, routes, interiors, encounters and familiar faces into your existing character's journey, with a new post-Champion story.
 
-**Current version: v0.16.7** · **In active development** · Requires **1025Dex 1.1.28 or newer**
+**Current version: v0.17.3** · **In active development** · Requires **1025Dex (any version)**
 
 [Download the latest release](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest) · [Report a bug](https://github.com/TheOriginalDrJ/Hoenn-Journey/issues)
+
+## New since v0.16.7
+
+- **Battle Frontier:** all seven single-player facilities, Frontier Brain battles, Symbols, BP, Frontier Pass and surrounding areas, plus all three Battle Tents.
+- **Mauville and Trick House:** Rydel's bike selection/exchanges, the Gym's switches and Wattson rewards, and all eight Trick House puzzles.
+- **Central Hoenn:** New Mauville's power-plant quest, paired-trainer double battles and Briney's coastal sailing sequences.
+- **Interface improvements:** bag quantities, Pokédex alignment, Safari admission dialogue and a reorganized Cheats menu with Left/Right warp paging.
+- **1025Dex dependency:** any version is admitted; the companion remains required. Compatibility with every historical or future build is not verified.
+
+The cumulative import now contains **452 maps**. See the [v0.17.3 release notes and gameplay screenshots](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/tag/v0.17.3) for details, installation and current limitations.
 
 ## Explore Hoenn
 
@@ -55,8 +65,8 @@ Actual in-game captures from development builds.
 
 ## Install or update
 
-1. Back up your save and install/enable **1025Dex 1.1.28 or newer** for FireRed Recomp.
-2. Download **HoennJourney-FireRed-v0.16.7.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
+1. Back up your save and install/enable **1025Dex (any version)** for FireRed Recomp.
+2. Download **HoennJourney-FireRed-v0.17.3.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
 3. Import it through the game's mod system, replacing the previous Hoenn Journey version, and enable it for FireRed.
 4. Restart the game so the updated hooks load, then continue your save.
 
@@ -66,10 +76,9 @@ Normal access follows the post-Champion invitation and ferry journey. Testing sh
 
 ## Optional testing tools
 
-Enable **Options → Hoenn - Kanto Settings → Cheats**, then open **Hoenn Cheats** from the Start menu.
+Enable **Options → Hoenn - Kanto Settings → Cheats**, then open **Hoenn Cheats** from the Start menu. Its root now groups actions into **Ease of Use** and **Warp**; Left/Right changes warp pages.
 
 - Grant all Hoenn badges or all Kanto badges separately.
-- Give all eight distinct HMs, including Dive.
 - Browse imported destinations through **Warp**.
 - **HM Move Pokemon:** add two level-100 Zigzagoon with full HP/PP. One knows Surf, Dive, Waterfall and Rock Smash; the other knows Fly, Cut, Strength and Flash. Requires two free party slots.
 - Unlock all imported Hoenn town Fly destinations; normal Fly move and badge requirements still apply.
@@ -83,7 +92,7 @@ Enable **Options → Hoenn - Kanto Settings → Cheats**, then open **Hoenn Chea
 
 Cheats do not automatically save. Encounter toggles persist with your save and remain active when the Cheats menu is hidden. These tools are intended for development testing and may change before the final release.
 
-## What's new in v0.16.7
+## Previous update: v0.16.7
 
 Fixes the crash after saving by preserving Hoenn story progress, flags, defeated trainers, cheats and other regional state through the native save flow. Older saves without Hoenn metadata initialize safely. Replace the mod ZIP and restart; no new game is required. Progress already missing from an earlier save cannot be reconstructed.
 
@@ -95,7 +104,7 @@ Fixes the crash after saving by preserving Hoenn story progress, flags, defeated
 
 ## Development status
 
-Hoenn Journey is an evolving expansion. Later story chapters, postgame balancing and some Emerald progression events and services still need work. Battle Frontier is not imported. Safari battles currently use FireRed's bait/rock rules rather than complete Emerald mechanics. Some gym, Wally and New Mauville progression remains partial.
+Hoenn Journey is an evolving expansion. Later story chapters, postgame balancing and some Emerald progression events and services still need work. Safari battles currently use FireRed's bait/rock rules rather than complete Emerald mechanics. Some later gym and Wally story progression remains partial. Frontier multiplayer/link modes, Apprentice training and recorded replays are not included. Mach and Acro currently share native bicycle movement.
 
 Emerald graphics, data and behaviors are adapted to the FireRed runtime; complete frame-for-frame Emerald parity has not been established. Encounter levels generally follow Emerald, so an existing Champion team can be overleveled. There is no automatic party reset or level scaling.
 
