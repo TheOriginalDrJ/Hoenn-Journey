@@ -2,7 +2,7 @@
 
 **Continue your FireRed adventure in Hoenn.** Hoenn Journey is a playable expansion for **FireRed Recomp**, bringing Emerald's towns, routes, interiors, encounters and familiar faces into your existing character's journey, with a new post-Champion story.
 
-**Current version: v0.16.6** · **In active development** · Requires **1025Dex 1.1.28 or newer**
+**Current version: v0.16.7** · **In active development** · Requires **1025Dex 1.1.28 or newer**
 
 [Download the latest release](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest) · [Report a bug](https://github.com/TheOriginalDrJ/Hoenn-Journey/issues)
 
@@ -56,7 +56,7 @@ Actual in-game captures from development builds.
 ## Install or update
 
 1. Back up your save and install/enable **1025Dex 1.1.28 or newer** for FireRed Recomp.
-2. Download **HoennJourney-FireRed-v0.16.6.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
+2. Download **HoennJourney-FireRed-v0.16.7.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
 3. Import it through the game's mod system, replacing the previous Hoenn Journey version, and enable it for FireRed.
 4. Restart the game so the updated hooks load, then continue your save.
 
@@ -83,7 +83,11 @@ Enable **Options → Hoenn - Kanto Settings → Cheats**, then open **Hoenn Chea
 
 Cheats do not automatically save. Encounter toggles persist with your save and remain active when the Cheats menu is hidden. These tools are intended for development testing and may change before the final release.
 
-## What's new in v0.16.6
+## What's new in v0.16.7
+
+Fixes the crash after saving by preserving Hoenn story progress, flags, defeated trainers, cheats and other regional state through the native save flow. Older saves without Hoenn metadata initialize safely. Replace the mod ZIP and restart; no new game is required. Progress already missing from an earlier save cannot be reconstructed.
+
+## Previous update: v0.16.6
 
 - Added seven selectable overworld appearances to regional settings, with saved selection and support during travel and field actions.
 - Raised both HM helper Zigzagoon to **level 100**; existing party Pokémon are unchanged.
