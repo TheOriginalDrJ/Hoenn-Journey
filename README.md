@@ -2,11 +2,27 @@
 
 **Continue your FireRed adventure in Hoenn.** Hoenn Journey is a playable expansion for **FireRed Recomp**, bringing Emerald's towns, routes, interiors, encounters and familiar faces into your existing character's journey, with a new post-Champion story.
 
-**Current version: v0.18.0** · **In active development** · **Standalone — no companion mod required**
+**Current version: v0.18.2** · **In active development** · **Standalone — no companion mod required**
 
 [Download the latest release](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest) · [Report a bug](https://github.com/TheOriginalDrJ/Hoenn-Journey/issues)
 
-## New in v0.18.0
+## New in v0.18.2 (including v0.18.1)
+
+- **Emerald-style legendary intros:** Rayquaza and the three Regis now begin directly on interaction, with their cry, encounter timing, special transitions and music before the native battle.
+- **Shared Kanto/Hoenn PCs:** all 34 Hoenn Center/League terminals use native PC furniture, power animation and progression-gated menus, with the same Pokémon boxes and item storage across both regions.
+- **Storage save repair:** preserves explicit box and slot positions when empty slots are present, preventing stored Pokémon and box customization from shifting or disappearing after save/Continue. Previously lost records cannot be reconstructed from overwritten saves.
+
+See the [v0.18.2 release notes and gameplay pictures](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/tag/v0.18.2) for scope and verification. Legendary presentation covers the four implemented static encounters; it does not add new legendary locations or claim cycle-exact GBA effects.
+
+| Rayquaza transition | Regirock transition |
+| --- | --- |
+| ![Rayquaza ring transition](https://github.com/user-attachments/assets/359d9060-c3e7-412e-a946-54ccae3a1aa7) | ![Regirock legendary transition](https://github.com/user-attachments/assets/c5820d2e-00fa-4635-9798-77472d916f1d) |
+
+| Native PC menu in Hoenn | Shared Pokémon storage |
+| --- | --- |
+| ![Kanto PC menu inside a Hoenn Pokemon Center](https://github.com/user-attachments/assets/65d5d59d-0f85-4d7e-a454-5b070c8d9d76) | ![Shared native Pokemon storage boxes](https://github.com/user-attachments/assets/3815ff5a-cdaa-43c2-ba4e-609974c63461) |
+
+## Previous update: v0.18.0
 
 Hoenn Journey now uses FireRed Recomp's native **Gen 1–3 roster** directly: all **386 Pokémon**, **354 moves**, original sprites and cries, abilities, learnsets, evolutions, TM/HM compatibility and breeding data. **1025Dex is no longer required.** The existing Hoenn Pokédex and regional gameplay remain integrated with the native battle, capture, party, storage and save systems.
 
@@ -81,7 +97,7 @@ Actual in-game captures. The first four are from the v0.18.0 standalone build; t
 ## Install or update
 
 1. Back up your save. Ensure FireRed Recomp is installed with its normal FireRed ROM import; **no companion mod is required**.
-2. Download **HoennJourney-FireRed-v0.18.0.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
+2. Download **HoennJourney-FireRed-v0.18.2.zip** from [Releases](https://github.com/TheOriginalDrJ/Hoenn-Journey/releases/latest). Use the named mod ZIP, rather than GitHub's automatically generated source-code archives or the older ZIP in the repository root.
 3. Import it through the game's mod system, replacing the previous Hoenn Journey version, and enable it for FireRed.
 4. Restart the game so the updated hooks load, then continue your save.
 
